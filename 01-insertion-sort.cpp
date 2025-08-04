@@ -25,7 +25,7 @@ void insertion_sort(int arr[], int n)
 
 void insertion_sort2(int arr[], int n)
 {
-    for (int j = 1; j <= n; j++)
+    for (int j = 1; j <= n - 1; j++)
     {
         int key = arr[j];
         int i = j - 1;
@@ -44,7 +44,7 @@ int main()
     int n = 5;
 
     print_array(arr, n);
-    insertion_sort(arr, n);
+    insertion_sort2(arr, n);
     print_array(arr, n);
 
     return 0;
