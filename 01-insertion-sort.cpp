@@ -44,7 +44,7 @@ int main()
     int n = 5;
 
     print_array(arr, n);
-    insertion_sort2(arr, n);
+    insertion_sort(arr, n);
     print_array(arr, n);
 
     return 0;
