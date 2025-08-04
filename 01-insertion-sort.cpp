@@ -8,6 +8,8 @@ void print_array(int arr[], int n)
     cout << endl;
 }
 
+// TC: O(N^2)
+// SC: O(1)
 void insertion_sort(int arr[], int n)
 {
     for (int i = 1; i <= n - 1; i++)
