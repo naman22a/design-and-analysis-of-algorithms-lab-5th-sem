@@ -2,6 +2,7 @@
 #include <vector>
 #include <algorithm>
 #include <ctime>
+#include <iomanip>
 using namespace std;
 
 double fractionalKnapsack(vector<int> &val, vector<int> &wt, int capacity)
@@ -53,16 +54,18 @@ int main()
 
         for (int i = 0; i < n; i++)
         {
-            val[i] = abs(rand());
-            wt[i] = abs(rand());
+            val[i] = abs(rand() % 1000 + 1);
+            wt[i] = abs(rand() % 1000 + 1);
         }
 
-        int start = clock();
-        fractionalKnapsack(val, wt, capacity);
-        int end = clock();
-        int time = end - start;
+        clock_t start = clock();
+        double profit = fractionalKnapsack(val, wt, capacity);
+        clock_t end = clock();
+        clock_t time = end - start;
 
-        cout << "Time taken: " << time << endl;
+        cout << left << setw(10) << n
+             << setw(20) << fixed << setprecision(2) << profit
+             << setw(15) << time << endl;
     }
 
     return 0;
