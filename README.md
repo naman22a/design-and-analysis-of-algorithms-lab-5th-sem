@@ -6,3 +6,4 @@
 -   Merge Sort (01-09-2025)
 -   Quick Sort (01-09-2025)
 -   Fractional Knapsack (08-09-2025)
+-   Prim's Algorithm (15-09-2025)
