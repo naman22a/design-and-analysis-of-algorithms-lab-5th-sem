@@ -8,3 +8,4 @@
 -   Fractional Knapsack (08-09-2025)
 -   Prim's Algorithm (15-09-2025)
 -   Kruskal's Algorithm (22-09-2025)
+-   Dijkstra's Algorithm (13-10-2025)
