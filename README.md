@@ -9,3 +9,5 @@
 -   Prim's Algorithm (15-09-2025)
 -   Kruskal's Algorithm (22-09-2025)
 -   Dijkstra's Algorithm (13-10-2025)
+-   Floyd's Warshall Algorithm (03-11-2025)
+-   N Queens (03-11-2025)
